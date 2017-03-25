@@ -1,0 +1,101 @@
+body{
+    color:white;
+    background-color: #030;
+    font-family: 'Caveat Brush', cursive;
+}
+
+.page-one{
+    height:90%;
+    width:100%;
+    background-color: #050;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-one--content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page-one--goButton{
+    font-family: 'Cabin Sketch', cursive;
+    height: 3em;
+    width: 5em;
+    background-color: transparent;
+    border:2px solid white;
+    color:white;
+    cursor: pointer;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 3em;
+    font-weight: 100;
+}
+
+.page-one--goButton:hover{
+    animation: goButtonHover;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes goButtonHover {
+    from {
+        background-color: transparent;
+        }
+    to {
+        background-color: rgba(255,255,255,0.3)
+        }
+}
+.page-one--heading{
+    width:100%;
+    text-align:center;
+    font-size: 5em;
+    font-weight: 100;
+}
+
+.page-two{
+    display:none;
+    height:90%;
+    width:100%;
+    background-color: #252;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:10%;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+#kleeut-link{
+    background: url('../img/kleeut.png');
+    height:64px;
+    width:64px;
+}
+#github-link{
+    background: url('../img/github.png');
+    height:64px;
+    width:64px;
+}
+
+.page-two--content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#page-two--response{
+    font-size: 8em;
+    font-weight: 100;
+}
+
+
