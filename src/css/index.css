@@ -11,6 +11,10 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  background: url('../img/salad.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .page-one--content{

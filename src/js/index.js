@@ -1,13 +1,13 @@
 require('../css/index.css');
 
 const responses = [
-    ":(",
-    "Depressing",
-    "Sad",
-    "Dissapointing",
-    "Unsatisfying",
-    "Unplesant",
-    "Woeful"
+    ":(",
+    "Depressing",
+    "Sad",
+    "Disappointing",
+    "Unsatisfying",
+    "Unpleasant",
+    "Woeful"
 ];
 
 document.getElementById('findOutButton').addEventListener('click', () => {
