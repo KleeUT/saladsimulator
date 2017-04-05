@@ -1,7 +1,7 @@
 require('../css/index.css');
 
 const responses = [
-    ":(",
+    ":(",
     ":-(",
     ";_;",
     "D:",
@@ -14,7 +14,7 @@ const responses = [
     "Bleak",
     "Brutal",
     "Cruel",
-    "Depressing",
+    "Depressing",
     "Dire",
     "Disappointing",
     "Disheartening",
@@ -27,14 +27,14 @@ const responses = [
     "Lamentable",
     "Joyless",
     "Pitiable",
-    "Sad",
+    "Sad",
     "Savage",
     "Tragic",
     "Unfortunate",
     "Unpalatable",
     "Unpleasant",
-    "Unsatisfying",
-    "Woeful"
+    "Unsatisfying",
+    "Woeful"
 ];
 
 document.getElementById('findOutButton').addEventListener('click', () => {
