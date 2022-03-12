@@ -1,4 +1,4 @@
-require('../css/index.css');
+// require('../css/index.css');
 
 const responses = [
     ":(",
@@ -45,4 +45,8 @@ document.getElementById('findOutButton').addEventListener('click', () => {
 document.getElementById('page-two').addEventListener('click', () => {
     document.getElementById('page-two').style.display = 'none';
     document.getElementById('page-one').style.display = 'flex';
+})
+document.getElementById('hide-roger').addEventListener('click', () => {
+    document.getElementById('roger').style.display = 'none';
+
 });

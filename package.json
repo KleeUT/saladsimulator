@@ -4,19 +4,12 @@
   "description": "What's it like to eat a salad",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server",
-    "build": "webpack",
-    "build-p": "  webpack -p --progress --colors",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build":"parcel build",
+    "start": "parcel src/index.html"
   },
-  "author": "kleeut",
+  "author": "twitter:@kleeut",
   "license": "ISC",
   "devDependencies": {
-    "css-loader": "^0.27.3",
-    "file-loader": "^0.10.1",
-    "style-loader": "^0.15.0",
-    "url-loader": "^0.5.8",
-    "webpack": "^2.3.0",
-    "webpack-dev-server": "^2.4.2"
+    "parcel": "^2.3.2"
   }
 }
